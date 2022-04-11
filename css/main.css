@@ -441,7 +441,6 @@ img {
   background-image: url(../image/about-back.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: calc(); */
 }
 
 .about-heading {
@@ -465,4 +464,142 @@ img {
   color: #FEFCF7;
 }
 
+/* !  COMMITMENT   */
+.commitment {
+  padding: 84px 0;
+}
 
+.commitment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commitment-right {
+  width: 540px;
+  margin-left: 125px;
+}
+
+.commitment-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.commitment-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* !  QUALITY */
+.quality {
+  padding: 84px 0;
+}
+
+.quality-container {
+  position: relative;
+  background-color: #2C343E;
+  padding-top: 88px;
+  padding-left: 85px;
+  padding-bottom: 176px;
+  border-radius: 10px;
+}
+
+.quality-left {
+  width: 540px;
+}
+
+.quality-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.quality-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality-img {
+  position: absolute;
+  border-radius: 10px;
+  left: 750px;
+  top: -88px;
+}
+
+/* !  LOCATION   */
+
+.location {
+  padding: 84px 0px;
+}
+
+.location-container {
+  padding: 0 100px;
+}
+
+.location-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 72px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  
+}
+
+.location-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.location-item + .location-item {
+ margin-left: 95px;
+}
+
+.location-item-heading {
+  margin: 0;
+  padding: 0;
+  margin-top: 46px;
+  margin-bottom: 24px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.location-info-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.location-info-item {
+  width: 285px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}

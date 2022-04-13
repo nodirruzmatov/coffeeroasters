@@ -606,6 +606,10 @@ img {
 
 /* !  ---   SUBSCRIBE PAGE  ---  */
 /* !  CREATE */
+.create {
+  padding-bottom: 88px;
+}
+
 .create__container {
   padding: 134px 84px;
   background-image: url(../image/subscribe-hero.png);
@@ -613,3 +617,25 @@ img {
   border-radius: 11px;
 
 }
+
+/* !  WORKS    */
+.works {
+  padding-top: 88px;
+  padding-bottom: 80px;
+}
+
+.works__container {
+  padding: 91px 150px 107px 85px;
+  background-color: #2C343E;
+  border-radius: 11px;
+
+}
+
+.works__heading--color {
+  color: #FEFCF7;
+}
+
+.works__desc--color {
+  color: #FEFCF7;
+}
+

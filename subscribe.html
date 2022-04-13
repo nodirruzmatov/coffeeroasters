@@ -88,6 +88,264 @@
       </div>
     </section>
 
+    <!-- !  ORDERING -->
+    <section class="ordering">
+      <div class="container ordering__container">
+
+        <ol class="ordering__list">
+
+          <li class="ordering__item">
+            <p class="ordering__item-number ordering__item-number--color">01</p>
+            <a href="#form-preferences" class="ordering__item-link">Preferences</a>
+          </li>
+
+          <li class="ordering__item">
+            <p class="ordering__item-number">02</p>
+            <a href="#form-type" class="ordering__item-link">Bean Type</a>
+          </li>
+
+          <li class="ordering__item">
+            <p class="ordering__item-number">03</p>
+            <a href="#form-quantity" class="ordering__item-link">Quantity</a>
+          </li>
+
+          <li class="ordering__item">
+            <p class="ordering__item-number">04</p>
+            <a href="#form-option" class="ordering__item-link">Grind Option</a>
+          </li>
+
+          <li class="ordering__item">
+            <p class="ordering__item-number ordering__item-number--color-twe">05</p>
+            <a href="#form-deliveries" class="ordering__item-link ordering__item-link--color">Deliveries</a>
+          </li>
+
+        </ol>
+
+
+        <form class="ordering__form" action="https://echo.htmlacademy.ru/" method="post">
+
+          <div id="form-preferences" class="ordreing__form-preferences">
+            <h2 class="ordring__form-heading">How do you drink your coffee?</h2>
+
+            <div class="ordering__form-value">
+
+              <label>
+              
+                <input class="visually-hidden" type="radio" name="how_drink" value="capsule">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Capsule</h3>
+                  <p class="ordring__form-desc">Compatible with Nespresso systems and similar brewers</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+                
+                <input class="visually-hidden" type="radio" name="how_drink" value="filter">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Filter</h3>
+                  <p class="ordring__form-desc">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+                
+                <input class="visually-hidden" type="radio" name="how_drink" value="espresso">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Espresso</h3>
+                  <p class="ordring__form-desc">Dense and finely ground beans for an intense, flavorful experience</p>
+                </div>
+                
+              </label>
+
+            </div>
+
+          </div>
+
+
+          <div id="form-type" class="ordreing__form-type">
+            <h2 class="ordring__form-heading">What type of coffee?</h2>
+
+            <div class="ordering__form-value">
+
+              <label>
+              
+                <input class="visually-hidden" type="radio" name="coffee_type" value="single_origin">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Single Origin</h3>
+                  <p class="ordring__form-desc">Distinct, high quality coffee from a specific family-owned farm</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+                
+                <input class="visually-hidden" type="radio" name="coffee_type" value="blended">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Blended</h3>
+                  <p class="ordring__form-desc">Combination of two or three dark roasted beans of organic coffees</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+
+                <input class="visually-hidden" type="radio" name="coffee_type" value="decaf">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Decaf</h3>
+                  <p class="ordring__form-desc">Compatible with Nespresso systems and similar brewers</p>
+                </div>
+                
+              </label>
+
+            </div>
+ 
+          </div>
+
+
+          <div id="form-quantity" class="ordreing__form-quantity">
+            <h2 class="ordring__form-heading">How much would yoou like?</h2>
+
+            <div class="ordering__form-value">
+
+              <label>
+              
+                <input class="visually-hidden" type="radio" name="coffe_quantity" value="250g">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">250g</h3>
+                  <p class="ordring__form-desc">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+                
+                <input class="visually-hidden" type="radio" name="coffe_quantity" value="500g">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">500g</h3>
+                  <p class="ordring__form-desc">Perfect option for a couple. Yields about 40 delectable cups.</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+
+                <input class="visually-hidden" type="radio" name="coffe_quantity" value="1000g">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">1000g</h3>
+                  <p class="ordring__form-desc">Perfect for offices and events. Yields about 90 delightful cups.</p>
+                </div>
+                
+              </label>
+
+            </div>
+ 
+          </div>
+
+
+          <div id="form-option" class="ordreing__form-option">
+            <h2 class="ordring__form-heading">Want us to grind them</h2>
+
+            <div class="ordering__form-value">
+
+              <label>
+              
+                <input class="visually-hidden" type="radio" name="grind_option" value="wholebean">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Wholebean</h3>
+                  <p class="ordring__form-desc">Best choice if you cherish the full sensory experience</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+                
+                <input class="visually-hidden" type="radio" name="grind_option" value="filter">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Filter</h3>
+                  <p class="ordring__form-desc">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+
+                <input class="visually-hidden" type="radio" name="grind_option" value="cafetiére">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Cafetiére</h3>
+                  <p class="ordring__form-desc"> Course ground beans specially suited for french press coffee</p>
+                </div>
+                
+              </label>
+
+            </div>
+ 
+          </div>
+
+
+          <div id="form-deliveries" class="ordreing__form-deliveries">
+            <h2 class="ordring__form-heading">How often should we drink?</h2>
+
+            <div class="ordering__form-value">
+
+              <label>
+              
+                <input class="visually-hidden" type="radio" name="deliveries" value="every_week">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Every week</h3>
+                  <p class="ordring__form-desc">$7.20 per shipment. Includes free first-class shipping.</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+                
+                <input class="visually-hidden" type="radio" name="deliveries" value="every_2_weeks">
+                <div class="ordring__form-custom ordring__form-custom--padding">
+                  <h3 class="ordring__form-title">Every 2 weeks</h3>
+                  <p class="ordring__form-desc">$9.60 per shipment. Includes free priority shipping.</p>
+  
+                </div>
+                
+              </label>
+  
+              <label>
+
+                <input class="visually-hidden" type="radio" name="deliveries" value="every_month">
+                <div class="ordring__form-custom">
+                  <h3 class="ordring__form-title">Every month</h3>
+                  <p class="ordring__form-desc">$12.00 per shipment. Includes free priority shipping.</p>
+                </div>
+                
+              </label>
+
+            </div>
+ 
+
+          </div>
+
+          <div class="ordering__form-info">
+            <h3 class="ordering__form-info-title">Order Summary</h3>
+            <p class="ordering__form-info-desc">“I drink my coffee as <span class="color">Filter</span> , with a <span class="color">Decaf</span> type of bean. <span class="color">250g</span> ground ala <span class="color">Cafetiare</span>, sent to me <span class="color">Every Week</span>.”</p>
+          </div>
+
+
+          <button class="site-btn ordering__form--btn">Create your plan</button>
+        </form>
+
+      </div>
+    </section>
+
   </main>
   
   <!-- !  FOOTER   -->
